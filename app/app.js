@@ -2,7 +2,9 @@ const express = require('express');
 const logger = require('morgan');
 const cors = require('cors');
 
-const router = require('./router');
+const countsRouter = require('./counts/routes');
+const randomRouter = require('./random/routes');
+const annotationsRouter = require('./annotations/routes');
 
 const app = express();
 app.enable('trust proxy');
@@ -11,7 +13,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.use('/', router);
+app.use('/', annotationsRouter);
+app.use('/counts', countsRouter);
+app.use('/random', randomRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

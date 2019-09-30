@@ -1,21 +1,20 @@
 {
-  "name": "ads-backend",
+  "name": "political-ads-legality-server",
   "version": "0.0.1",
   "description": "Serve data about political ads",
   "scripts": {
-    "start": "node ./bin/run.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ambanum/political-ads-scraper.git"
+    "url": "git+https://github.com/ambanum/political-ads-legality-server"
   },
   "author": "",
   "license": "EUPL-1.2",
   "bugs": {
-    "url": "https://github.com/ambanum/political-ads-scraper/issues"
+    "url": "https://github.com/ambanum/political-ads-legality-server/issues"
   },
-  "homepage": "https://github.com/ambanum/political-ads-scraper#readme",
+  "homepage": "https://github.com/ambanum/political-ads-legality-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "csv-stringify": "^5.3.0",

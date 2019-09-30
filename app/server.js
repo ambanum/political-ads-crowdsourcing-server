@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var app = require('../src/app');
-var debug = require('debug')('ads-server');
+var app = require('./app');
+var debug = require('debug')('political-ads-legality-server');
 var http = require('http');
 
 /**
@@ -27,6 +27,10 @@ var server = http.createServer(app);
 server.listen(port, '127.0.0.1');
 server.on('error', onError);
 server.on('listening', onListening);
+console.log(
+`Server address: http://127.0.0.1:${port}/
+Server running… press ctrl-c to stop.
+`);
 
 /**
  * Normalize a port into a number, string, or false.

@@ -1,3 +1,11 @@
+Server allowing to get and annotate political ads
+
+## API
+
+GET /random?nb_ads
+GET /annotations/:type?
+GET /counts
+
 ## Run during developpement
 
 ```
