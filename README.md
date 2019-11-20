@@ -135,8 +135,8 @@ You will also need a MongoDB database with some ads, you can check [political-ad
 Clone the repository and install dependencies:
 
 ```sh
-git clone https://github.com/ambanum/political-ads-legality-server.git
-cd political-ads-legality-server
+git clone https://github.com/ambanum/political-ads-crowdsourcing-server.git
+cd political-ads-crowdsourcing-server
 npm install
 ```
 
