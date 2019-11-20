@@ -4,7 +4,7 @@ set -e
 ### Configuration ###
 
 SERVER=cloud@disinfo.quaidorsay.fr
-REMOTE_SCRIPT_PATH=/tmp/deploy-political-ads-legality-server.sh
+REMOTE_SCRIPT_PATH=/tmp/deploy-political-ads-crowdsourcing-server.sh
 
 
 ### Library ###
