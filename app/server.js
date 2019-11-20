@@ -4,7 +4,7 @@
  */
 
 var app = require('./app');
-var debug = require('debug')('political-ads-legality-server');
+var debug = require('debug')('political-ads-crowdsourcing-server');
 var http = require('http');
 
 /**
