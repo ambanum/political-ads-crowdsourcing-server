@@ -3,8 +3,8 @@ set -e
 
 ### Configuration ###
 
-REPO_DIR=/home/cloud/political-ads-legality-server
-GIT_URL=git@github.com:ambanum/political-ads-legality-server.git
+REPO_DIR=/home/cloud/political-ads-crowdsourcing-server
+GIT_URL=git@github.com:ambanum/political-ads-crowdsourcing-server.git
 
 ### Automation steps ###
 
