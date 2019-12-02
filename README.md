@@ -1,3 +1,5 @@
+# Political-ads-crowdsourcing-server
+
 Server allowing to get and annotate political ads
 
 ## API
@@ -158,6 +160,8 @@ SALT="abc"
 
 Then, run the webserver.
 We suggest to use a production process manager for Node.js like [pm2](https://github.com/Unitech/pm2) or [Forever](https://github.com/foreversd/forever#readme).
+
+For information on how we deploy this app, you can take a look at the role `Political-ads-crowdsourcing-server` in our [disinfo.quaidorsay.fr-ops repository](https://github.com/ambanum/disinfo.quaidorsay.fr-ops.git)
 
 - - -
 
